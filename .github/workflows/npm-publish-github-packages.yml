@@ -1,0 +1,14 @@
+name: Teste Api de Compra
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install modules
+      env:
+        NODE_TEST: false
+        NODE_ENV: "test"
+      run: yarn
+    - name: Run tests
+      run: yarn test
