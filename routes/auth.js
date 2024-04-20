@@ -59,4 +59,9 @@ router.post("/create", async (req, res) => {
   res.status(201).send(new_usuario);
 });
 
+router.get("/versao-valid-test", async (req, res) => {
+ 
+  res.status(200).json(process.env.NODE_ENV);
+});
+
 module.exports = router;
