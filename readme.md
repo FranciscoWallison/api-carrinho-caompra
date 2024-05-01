@@ -1,4 +1,4 @@
-# API de Exemplo usando Express
+# API usando Express
 
 Esta é uma API simples construída usando o framework Express.js para Node.js. A API simula operações básicas CRUD (Criar, Ler, Atualizar e Excluir) em uma lista de produtos.
 Exemplo utilizado para colegas de turma.
